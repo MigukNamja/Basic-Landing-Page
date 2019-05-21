@@ -5,7 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Basic Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Montserrat:300,400,600,700&amp;lang=en"
+    />
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Montserrat-Bold:300,400,600,700&amp;lang=en"
+    />
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="main-container">
+      <header>
+        <img src="images/logo.svg" alt="26andfour logo" class="logo" />
+
+        <nav>
+          <a href="#!" class="hide-desktop">
+            <img
+              src="images/ham.svg"
+              alt="toggle main menu"
+              class="menu"
+              id="menu"
+            />
+          </a>
+
+          <ul class="show-desktop hide-desktop" id="nav">
+            <li id="exit" class="exit-btn hide-desktop">
+              <img src="images/exit.svg" alt="exit menu" />
+            </li>
+            <li><a href="#!">home</a></li>
+            <li><a href="#!">services</a></li>
+            <li><a href="#!">about</a></li>
+            <li><a href="#!">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- hero section -->
+      <section>
+        <img class="server" src="images/server.svg" alt="server illustration" />
+        <h1>Blue Server Boxes to Catch Rats</h1>
+        <p class="subheader">Too many rats ? Set these blue servers out!</p>
+
+        <img
+          src="images/scroll.svg"
+          alt="scroll down the page"
+          class="scroll hide-mobile show-desktop"
+        />
+      </section>
+    </div>
+  </body>
 </html>
