@@ -1,0 +1,19 @@
+{
+  "name": "basic-landing-page",
+  "version": "1.0.0",
+  "description": "Following along with Gary Simon's (aka DesignCourse) video 2019 Frontend Developer Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MigukNamja/Basic-Landing-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MigukNamja/Basic-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/MigukNamja/Basic-Landing-Page#readme"
+}
